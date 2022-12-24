@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.item{
+    color: darkblue;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.inner{
+    overflow: hidden;
+    max-height: 150px;
+}
+.inner img{
+    transition: all 1.5S ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
